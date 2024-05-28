@@ -22,9 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/berlin/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_berlin
+PRODUCT_NAME := aicp_berlin
 PRODUCT_DEVICE := berlin
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
@@ -34,6 +34,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=berlin_retail \
-    PRIVATE_BUILD_DESC="berlin_global-user 13 T1RGS33.135-109-9-3 d791e1-b91f3 release-keys"
+    PRIVATE_BUILD_DESC="berlin_global-user 13 T1RGS33.135-109-9-15 4483d-3643e release-keys"
 
-BUILD_FINGERPRINT := motorola/berlin_global/berlin:13/T1RGS33.135-109-9-3/d791e1-b91f3:user/release-keys
+BUILD_FINGERPRINT := motorola/berlin_global/berlin:13/T1RGS33.135-109-9-15/4483d-3643e:user/release-keys
