@@ -15,4 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_berlin.mk
+    $(LOCAL_DIR)/aicp_berlin.mk
+
